@@ -1,0 +1,86 @@
+[29-Oct-2024 11:55:18 UTC] PHP Warning:  Undefined array key "cookies" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 59
+[29-Oct-2024 11:55:18 UTC] PHP Warning:  Undefined array key "cookies" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 59
+[29-Oct-2024 11:55:18 UTC] PHP Warning:  Undefined array key "cookies" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 59
+[29-Oct-2024 11:55:18 UTC] PHP Warning:  Undefined array key "cookies" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 59
+[29-Oct-2024 11:55:29 UTC] PHP Warning:  Undefined array key "cookies" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 59
+[29-Oct-2024 11:55:29 UTC] PHP Warning:  Undefined array key "cookies" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 59
+[29-Oct-2024 11:55:29 UTC] PHP Warning:  Undefined array key "cookies" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 59
+[29-Oct-2024 11:55:29 UTC] PHP Warning:  Undefined array key "cookies" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 59
+[29-Oct-2024 12:35:10 UTC] PHP Warning:  Undefined array key "cookies" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 59
+[29-Oct-2024 12:35:10 UTC] PHP Warning:  Undefined array key "cookies" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 59
+[29-Oct-2024 12:35:10 UTC] PHP Warning:  Undefined array key "cookies" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 59
+[29-Oct-2024 12:40:33 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 61
+[29-Oct-2024 12:42:17 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 59
+[29-Oct-2024 22:58:18 UTC] PHP Warning:  Undefined variable $responseData in /home/etisparl/public_html/ahshan.xyz/test/create_product/index.php on line 350
+[29-Oct-2024 22:58:18 UTC] PHP Warning:  Undefined array key "phone" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 4
+[29-Oct-2024 22:58:18 UTC] PHP Warning:  Undefined array key "token" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 5
+[29-Oct-2024 22:58:29 UTC] PHP Warning:  Undefined variable $responseData in /home/etisparl/public_html/ahshan.xyz/test/create_product/index.php on line 350
+[29-Oct-2024 22:58:29 UTC] PHP Warning:  Undefined array key "phone" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 4
+[29-Oct-2024 22:58:29 UTC] PHP Warning:  Undefined array key "token" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 5
+[29-Oct-2024 22:58:41 UTC] PHP Warning:  Undefined variable $responseData in /home/etisparl/public_html/ahshan.xyz/test/create_product/index.php on line 350
+[29-Oct-2024 22:58:41 UTC] PHP Warning:  Undefined array key "phone" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 4
+[29-Oct-2024 22:58:41 UTC] PHP Warning:  Undefined array key "token" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 5
+[29-Oct-2024 22:58:56 UTC] PHP Warning:  Undefined variable $responseData in /home/etisparl/public_html/ahshan.xyz/test/create_product/index.php on line 350
+[29-Oct-2024 22:58:56 UTC] PHP Warning:  Undefined array key "phone" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 4
+[29-Oct-2024 22:58:56 UTC] PHP Warning:  Undefined array key "token" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 5
+[29-Oct-2024 22:59:59 UTC] PHP Warning:  Undefined variable $responseData in /home/etisparl/public_html/ahshan.xyz/test/create_product/index.php on line 350
+[29-Oct-2024 22:59:59 UTC] PHP Warning:  Undefined array key "phone" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 4
+[29-Oct-2024 22:59:59 UTC] PHP Warning:  Undefined array key "token" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 5
+[29-Oct-2024 23:00:59 UTC] PHP Warning:  Undefined variable $responseData in /home/etisparl/public_html/ahshan.xyz/test/create_product/index.php on line 350
+[29-Oct-2024 23:00:59 UTC] PHP Warning:  Undefined array key "phone" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 4
+[29-Oct-2024 23:00:59 UTC] PHP Warning:  Undefined array key "token" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 5
+[29-Oct-2024 23:01:51 UTC] PHP Warning:  Undefined variable $responseData in /home/etisparl/public_html/ahshan.xyz/test/create_product/index.php on line 350
+[29-Oct-2024 23:01:51 UTC] PHP Warning:  Undefined array key "phone" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 4
+[29-Oct-2024 23:01:51 UTC] PHP Warning:  Undefined array key "token" in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 5
+[30-Oct-2024 00:44:02 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 80
+[30-Oct-2024 00:44:04 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 80
+[30-Oct-2024 00:44:04 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 80
+[30-Oct-2024 00:44:28 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 80
+[30-Oct-2024 00:44:28 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 80
+[30-Oct-2024 00:47:59 UTC] PHP Warning:  Undefined variable $hi in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 83
+[30-Oct-2024 00:48:00 UTC] PHP Warning:  Undefined variable $hi in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 83
+[30-Oct-2024 00:48:01 UTC] PHP Warning:  Undefined variable $hi in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 83
+[30-Oct-2024 00:48:01 UTC] PHP Warning:  Undefined variable $hi in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 83
+[30-Oct-2024 00:48:16 UTC] PHP Warning:  Undefined variable $hi in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 84
+[30-Oct-2024 00:48:17 UTC] PHP Warning:  Undefined variable $hi in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 84
+[30-Oct-2024 00:48:17 UTC] PHP Warning:  Undefined variable $hi in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 84
+[30-Oct-2024 00:48:18 UTC] PHP Warning:  Undefined variable $hi in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 84
+[30-Oct-2024 00:48:18 UTC] PHP Warning:  Undefined variable $hi in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 84
+[30-Oct-2024 00:50:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php:80) in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 90
+[30-Oct-2024 00:50:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php:62) in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 90
+[30-Oct-2024 00:50:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php:62) in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 90
+[30-Oct-2024 00:52:20 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 00:52:22 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 00:52:23 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 00:52:23 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 00:52:24 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 00:52:25 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 00:52:25 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 00:57:04 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 00:57:24 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 00:58:02 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 00:58:20 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 00:58:33 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 00:59:25 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 01:01:12 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 01:01:44 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 01:09:25 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 01:10:53 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 01:23:39 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 02:22:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 45
+[30-Oct-2024 02:22:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php:85) in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 95
+[30-Oct-2024 02:22:34 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 02:22:35 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 02:22:55 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 02:42:22 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 02:52:18 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 02:58:59 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 08:20:04 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 08:21:11 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 08:22:08 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 08:22:31 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 09:01:59 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 09:02:50 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 09:18:49 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 09:18:55 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/test/create_product/fetch_product.php on line 100
+[30-Oct-2024 09:58:21 UTC] PHP Warning:  Undefined variable $check in /home/etisparl/public_html/ahshan.xyz/new/create_product/fetch_product.php on line 100

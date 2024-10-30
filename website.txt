@@ -1,0 +1,5 @@
+sidebar_name="Grohon"
+website_title="Grohon"
+Login_name="Grohon Extesion Dashboard Login"
+Dashboard_header="Grohon Extesion Dashboard Header"
+dashboard_welcome_note="Welcome to Grohon Api Extension "
