@@ -152,7 +152,7 @@ if (!isset($_SESSION['phone']) || empty($_SESSION['phone'])) {
                         <span id="add_error_msg" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label for="new_product_url" class="col-form-label">Product Name:</label>
+                        <label for="new_product_url" class="col-form-label">Product Link:</label>
                         <input type="text" class="form-control" id="new_product_url" name="product_url" required>
                         <span id="add_error_msg" class="text-danger"></span>
                     </div>

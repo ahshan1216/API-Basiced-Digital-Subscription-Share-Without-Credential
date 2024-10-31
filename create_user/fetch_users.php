@@ -77,11 +77,13 @@ if ($userData && isset($userData['status']) && $userData['status'] === 'success'
         $customer_Used_limit = htmlspecialchars($row['customer_actual_limit'] ?? '0');
         $password = htmlspecialchars($row['password'] ?? '');
         $user_login_acitve= $row['active'];
+        $customer_extension_name =$row['customer_extension_name'];	
         
         
         echo "<tr>
                 <td>{$i}</td>
                 <td>{$cus_phone}</td>
+                <td>{$customer_extension_name}</td>
                  <td>{$customer_device_limit}</td>
                  <td>{$customer_Used_limit}</td>
                 <td align='center'>

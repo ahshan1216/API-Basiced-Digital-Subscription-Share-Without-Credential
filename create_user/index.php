@@ -151,6 +151,7 @@ if (!isset($_SESSION['phone']) || empty($_SESSION['phone'])) {
                                     <tr>
                                         <th>#</th>
                                         <th>Customar Phone</th>
+                                        <th>Product Name</th>
                                         <th>Customar Limit Device</th>
                                         <th>Customar Used Device</th>
                                         <th>Product</th>
