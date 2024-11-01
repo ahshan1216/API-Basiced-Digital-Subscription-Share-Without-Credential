@@ -78,7 +78,7 @@ Now Share Your Extension Where You Want to Share with UserName and Password. Use
 
  ### Now Another PC Open Extension 
 ### Screenshot 14:Grohon Extension
- ![Grohon Extension](screenshots/grohon.JPG) 
+ ![Grohon Extension](screenshots/grohon.jpg) 
 
 ### Screenshot 15:Enter Your Phone and Pass
  ![Login Extension](screenshots/login_EX.JPG) 
