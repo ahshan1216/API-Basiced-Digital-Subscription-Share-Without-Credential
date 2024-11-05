@@ -67,7 +67,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ]);
         exit;
     }
-    date_default_timezone_set('Asia/Dhaka');
 
     // Prepare data for insertion into `api_extension`
     $insertData = [

@@ -13,7 +13,8 @@ if (!$phone || !$token) {
 }
 
 // Function to fetch data from API based on type
-function fetchData($url, $token, $data) {
+function fetchData($url, $token, $data)
+{
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
@@ -63,7 +64,7 @@ $cookieNamesJson = json_encode($cookieNames);
 
 if ($userData['status'] != 'success') {
     // Code to execute when the status is not 'success'
-     $check=$userData['message'] ?? 'unknownerror';   
+    $check = $userData['message'] ?? 'unknownerror';
 }
 // Process user data response
 if ($userData && isset($userData['status']) && $userData['status'] === 'success') {
@@ -76,24 +77,22 @@ if ($userData && isset($userData['status']) && $userData['status'] === 'success'
         $customer_device_limit = htmlspecialchars($row['customer_device_limit'] ?? '0');
         $customer_Used_limit = htmlspecialchars($row['customer_actual_limit'] ?? '0');
         $password = htmlspecialchars($row['password'] ?? '');
-        $user_login_acitve= $row['active'];
-        $customer_extension_name =$row['customer_extension_name'];	
-        
-        
+        $user_login_acitve = $row['active'];
+        $product_name = $row['customer_extension_name'];
+
         echo "<tr>
                 <td>{$i}</td>
                 <td>{$cus_phone}</td>
-                <td>{$customer_extension_name}</td>
                  <td>{$customer_device_limit}</td>
                  <td>{$customer_Used_limit}</td>
+                <td align='center'>
+                    {$product_name}
+                </td>
                 <td align='center'>
                     <button class='btn btn-flat btn-primary btn-sm' onclick='editUser(\"{$id}\",\"{$email}\", \"{$cus_phone}\", \"{$password}\",\"{$user_login_acitve}\", {$cookieNamesJson})'>
                         <span class='fa fa-edit'></span> Edit
                     </button>
-                </td>
-                <td align='center'>
-
-                    <button class='btn btn-flat btn-danger btn-sm' onclick='deleteUser({$row['id']})'>
+                    <button class='btn btn-flat btn-danger btn-sm' onclick='showDeleteModal({$row['id']})'>
                         <span class='fa fa-trash'></span> Delete
                     </button>
                 </td>
@@ -103,11 +102,12 @@ if ($userData && isset($userData['status']) && $userData['status'] === 'success'
 } else {
     echo "<tr><td colspan='6'>Error fetching user data: " . ($userData['message'] ?? 'Unknown error') . "</td></tr>";
 }
-function logout() {
+function logout()
+{
     // Remove session data
     session_unset();
     session_destroy();
-    
+
     // Redirect to login page
     header('Location: ../auth/');  // Use header function for redirection
     exit(); // Ensure no further code is executed

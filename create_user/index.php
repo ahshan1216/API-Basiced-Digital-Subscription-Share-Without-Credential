@@ -151,7 +151,6 @@ if (!isset($_SESSION['phone']) || empty($_SESSION['phone'])) {
                                     <tr>
                                         <th>#</th>
                                         <th>Customar Phone</th>
-                                        <th>Product Name</th>
                                         <th>Customar Limit Device</th>
                                         <th>Customar Used Device</th>
                                         <th>Product</th>
@@ -310,7 +309,28 @@ if (!isset($_SESSION['phone']) || empty($_SESSION['phone'])) {
 
     </div>
     <!-- ./wrapper -->
-
+<!-- Delete Confirmation Modal -->
+<div class="modal" id="deleteModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Confirm Deletion</h5>
+                <button type="button" class="close" onclick="closeDeleteModal()" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Most Important: If you delete this user, all associated Extension Products will be deleted. To check if any other products are linked to this user, use the Edit button.</p>
+                <p>Please type <strong>CONFIRM</strong> below to proceed with deletion.</p>
+                <input type="text" id="confirmInput" class="form-control" placeholder="Type CONFIRM to delete">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="closeDeleteModal()">Cancel</button>
+                <button type="button" class="btn btn-danger" onclick="confirmDelete()" id="deleteBtn" disabled>Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- Bootstrap 4 -->
     <script src="css/dist/js/bootstrap.bundle.min.js"></script>
@@ -337,20 +357,7 @@ if (!isset($_SESSION['phone']) || empty($_SESSION['phone'])) {
         //     });
         // }
 
-        // Delete user
-        function deleteUser(id) {
-            if (confirm('Are you sure you want to delete this user?')) {
-                $.ajax({
-                    url: 'delete_user.php',  // Update this PHP script for deleting users
-                    method: 'POST',
-                    data: { id: id },
-                    success: function (response) {
-                        alert(response);
-                        loadUsers();  // Refresh user list after deletion
-                    }
-                });
-            }
-        }
+
 
         function initializeSelect2(cookieNames) {
 
@@ -579,6 +586,50 @@ if (!isset($_SESSION['phone']) || empty($_SESSION['phone'])) {
 
 
     </script>
+<!-- JavaScript Code -->
+<script>
+    let deleteUserId = null;
+
+    function showDeleteModal(userId) {
+        deleteUserId = userId;
+        document.getElementById('deleteModal').style.display = 'block';
+    }
+
+    function closeDeleteModal() {
+        document.getElementById('deleteModal').style.display = 'none';
+        document.getElementById('confirmInput').value = '';
+        document.getElementById('deleteBtn').disabled = true;
+    }
+
+    document.getElementById('confirmInput').addEventListener('input', function() {
+        const confirmText = document.getElementById('confirmInput').value;
+        document.getElementById('deleteBtn').disabled = (confirmText !== 'CONFIRM');
+    });
+
+    function confirmDelete() {
+        if (deleteUserId) {
+            deleteUser(deleteUserId);  // Calls the function to delete user
+            closeDeleteModal();
+        }
+    }
+
+        // Delete user
+        function deleteUser(id) {
+            if (confirm('Are you sure you want to delete this user?')) {
+                $.ajax({
+                    url: 'delete_user.php',  // Update this PHP script for deleting users
+                    method: 'POST',
+                    data: { id: id },
+                    success: function (response) {
+                        alert(response);
+                        loadUsers();  // Refresh user list after deletion
+                    }
+                });
+            }
+        }
+</script>
+
+<!-- Add basic styling for modal visibility -->
 
 </body>
 
